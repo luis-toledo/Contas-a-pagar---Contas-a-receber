@@ -17,7 +17,7 @@
 - [ ] Telas diferentes para contas à receber, contas à pagar e novos lançamentos.
 
 
-# --------------------------------------------------------------------
+# ----------------------------------------------------------------
 
 ## Listas de tarefas
 
