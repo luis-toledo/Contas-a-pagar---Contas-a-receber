@@ -1,0 +1,79 @@
+@import 'variaveis.css';
+
+
+.container{
+    display: flex;
+}
+
+.menu{
+    padding: 30px 20px;
+    max-width: 250px;
+    height: 100vh;
+    background: var(---vermelho);
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+.fonte-menu{
+    font-family: var(--fonte);
+    font-weight: 800;
+    color: var(---verde);
+    font-size: 26px;
+}
+
+.menu-opcao{
+    text-decoration: none;
+}
+
+.menu-opcao:hover{
+    color: var(---amarelo);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape{
+    background: var(---amarelo);
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape-fonte{
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(---verde);
+    font-size: 26px;
+}
+
+.rodape-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.rodape-link{
+    text-decoration: none;
+}
+
+.rodape-link:hover{
+    color: var(---vermelho);
+    text-decoration: underline;
+}
