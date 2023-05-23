@@ -1,28 +1,32 @@
 @import 'variaveis.css';
 
+main{
+    width: 100vw;
+}
 
 .container{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .menu{
-    padding: 4% 2%;
+    padding-top: 2%;
     width: 15%;
     height: 100vh;
-    background: var(---vermelho);
+    background: var(--secundaria);
     display: flex;
     flex-direction: column;
     gap: 30%;
     align-items: center;
     text-align: center;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
 .fonte-menu{
     font-family: var(--fonte);
     font-weight: 800;
-    color: var(---verde);
+    color: var(--quartiaria);
     font-size: 26px;
 }
 
@@ -31,13 +35,13 @@
 }
 
 .menu-opcao:hover{
-    color: var(---amarelo);
+    color: var(--terciaria);
     text-decoration: underline;
 }
 
 
 .novos-lancamentos{
-    background: var(---azul);
+    background: var(--primaria);
     width: 85%;
     padding: 2%;
     display: flex;
@@ -46,7 +50,7 @@
 }
 
 .secao-novos-lancamentos{
-    background: var(---amarelo);
+    background: var(--terciaria);
     width: 100%;
     padding: 5%;
     display: flex;
@@ -84,21 +88,21 @@
 }
 
 .label-lancamento{
-    font-family: var(---fonte);
+    font-family: var(--fonte);
     font-weight: 800;
     font-size: 22px;
-    color: var(---verde);
+    color: var(--quartiaria);
     padding-bottom: 5px;
 }
 
 .input-lancamento{
     padding: 8px;
-    background: var(---verde);
-    border: 2px solid var(---azul);
+    background: var(--quartiaria);
+    border: 2px solid var(--primaria);
     border-radius: 10px;
-    font-family: var(---fonte);
+    font-family: var(--fonte);
     font-weight: 400;
-    color: var(---azul);
+    color: var(--secundaria);
 }
 
 .lancamentos-data{
@@ -111,44 +115,45 @@
 }
 
 .button:hover{
-    color: var(---vermelho);
+    color: var(--secundaria);
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.6);
 }
 
 .button{
-    background: var(---verde);
+    background: var(--quartiaria);
     padding: 8px 0;
     margin-top: 4%;
-    border: 2px solid var(---azul);
+    border: 2px solid var(--primaria);
     border-radius: 10px;
-    font-family: var(---fonte);
+    font-family: var(--fonte);
     font-weight: 800;
     font-size: 32px;
-    color: var(---azul);
+    color: var(--primaria);
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
 .titulo-lancamento{
-    font-family: var(---fonte);
+    font-family: var(--fonte);
     font-weight: 800;
     font-size: 42px;
     text-align: center;
-    color: var(---verde);
+    color: var(--quartiaria);
     padding-bottom: 5px;
 }
 
 .saida-saldo{
     padding: 8px;
-    background: var(---verde);
-    border: 2px solid var(---azul);
+    background: var(--quartiaria);
+    border: 2px solid var(--primaria);
     border-radius: 10px;
-    font-family: var(---fonte);
+    font-family: var(--fonte);
     font-weight: 400;
-    color: var(---azul);
+    color: var(--primaria);
 }
 
 .rodape{
-    background: var(---amarelo);
+    background: var(--terciaria);
+    border-top: 15px double var(--secundaria);
     padding: 1%;
     text-align: center;
 }
@@ -156,11 +161,12 @@
 .rodape-fonte{
     font-family: var(--fonte);
     font-weight: 400;
-    color: var(---verde);
+    color: var(--quartiaria);
     font-size: 26px;
 }
 
 .rodape-conteudo{
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,6 +178,6 @@
 }
 
 .rodape-link:hover{
-    color: var(---vermelho);
+    color: var(--secundaria);
     text-decoration: underline;
 }

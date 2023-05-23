@@ -13,8 +13,8 @@
 
 ### Avançado
 - [X] Ter um menu.
-- [ ] Design personalizado.
-- [ ] Telas diferentes para contas à receber, contas à pagar e novos lançamentos.
+- [X] Design personalizado.
+- [X] Telas diferentes para contas à receber, contas à pagar e novos lançamentos.
 
 
 # ----------------------------------------------------------------
@@ -23,7 +23,7 @@
 
 ### Tarefas Font-End:
 - [ ]  Estruturar HTML.
-- [ ]  Definir cores.
+- [X]  Definir cores.
 - [ ]  Estilizar com CSS.
 
 ### Tarefas Back-End:
