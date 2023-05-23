@@ -4,7 +4,7 @@
                         <div class="menu-opcoes">
                             <a class="menu-opcao fonte-menu" href="./listaRegistros.php">Contas à Pagar</a>
                             <p class="fonte-menu">&</p>
-                            <a class="menu-opcao fonte-menu" href="">Contas à Receber</a>
+                            <a class="menu-opcao fonte-menu" href="./listaRegistros.php">Contas à Receber</a>
                         </div>
                         <a class="menu-opcao fonte-menu" href="lancamentos.php">Novo Lançamento</a>
                     </nav>

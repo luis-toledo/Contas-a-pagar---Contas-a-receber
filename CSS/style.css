@@ -137,6 +137,15 @@
     padding-bottom: 5px;
 }
 
+.saida-saldo{
+    padding: 8px;
+    background: var(---verde);
+    border: 2px solid var(---azul);
+    border-radius: 10px;
+    font-family: var(---fonte);
+    font-weight: 400;
+    color: var(---azul);
+}
 
 .rodape{
     background: var(---amarelo);
