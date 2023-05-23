@@ -19,7 +19,11 @@
                                 
                                 <div class="lancamentos-caixa tipo">
                                     <label class="label-lancamento" for="">Tipo</label>
-                                    <input class="input-lancamento" type="text">
+                                    <input class="input-lancamento" type="text" list="tipo-lancamento">
+                                    <datalist id="tipo-lancamento">
+                                        <option value="P">
+                                        <option value="R">
+                                    </datalist>
                                 </div>
                             </div>
                             
