@@ -3,11 +3,13 @@
 
 .container{
     display: flex;
+    width: 100vw;
+    height: 100vh;
 }
 
 .menu{
-    padding: 30px 20px;
-    max-width: 250px;
+    padding: 4% 2%;
+    width: 15%;
     height: 100vh;
     background: var(---vermelho);
     display: flex;
@@ -36,32 +38,104 @@
 
 .novos-lancamentos{
     background: var(---azul);
+    width: 85%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .secao-novos-lancamentos{
     background: var(---amarelo);
+    width: 100%;
+    padding: 5%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 .form-lancamentos{
+    width: 100%;
+    padding: 1%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .lancamentos-caixa{
+    margin: 2% 0;
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .lancamentos-valor-tipo{
     display: flex;
+    gap: 10%;
+}
+
+.valor{
+    width: 70%;
+}
+
+.tipo{
+    width: 20%;
+}
+
+.label-lancamento{
+    font-family: var(---fonte);
+    font-weight: 800;
+    font-size: 22px;
+    color: var(---verde);
+    padding-bottom: 5px;
+}
+
+.input-lancamento{
+    padding: 8px;
+    background: var(---verde);
+    border: 2px solid var(---azul);
+    border-radius: 10px;
+    font-family: var(---fonte);
+    font-weight: 400;
+    color: var(---azul);
+}
+
+.lancamentos-data{
+    display: flex;
     justify-content: space-between;
 }
 
+.data{
+    width: 25%;
+}
 
+.button:hover{
+    color: var(---vermelho);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.6);
+}
 
+.button{
+    background: var(---verde);
+    padding: 8px 0;
+    margin-top: 4%;
+    border: 2px solid var(---azul);
+    border-radius: 10px;
+    font-family: var(---fonte);
+    font-weight: 800;
+    font-size: 32px;
+    color: var(---azul);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.titulo-lancamento{
+    font-family: var(---fonte);
+    font-weight: 800;
+    font-size: 42px;
+    text-align: center;
+    color: var(---verde);
+    padding-bottom: 5px;
+}
 
 
 
@@ -75,7 +149,7 @@
 
 .rodape{
     background: var(---amarelo);
-    padding: 20px;
+    padding: 1%;
     text-align: center;
 }
 
@@ -90,7 +164,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: 1%;
 }
 
 .rodape-link{

@@ -6,6 +6,6 @@
                             <p class="fonte-menu">&</p>
                             <a class="menu-opcao fonte-menu" href="">Contas à Receber</a>
                         </div>
-                        <a class="menu-opcao fonte-menu" href="#">Novo Lançamento</a>
+                        <a class="menu-opcao fonte-menu" href="lancamentos.php">Novo Lançamento</a>
                     </nav>
                     
