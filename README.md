@@ -12,7 +12,7 @@
 - [ ] Mostrar o somatório de contas à pagar.
 
 ### Avançado
-- [ ] Ter um menu.
+- [X] Ter um menu.
 - [ ] Design personalizado.
 - [ ] Telas diferentes para contas à receber, contas à pagar e novos lançamentos.
 
@@ -27,8 +27,8 @@
 - [ ]  Estilizar com CSS.
 
 ### Tarefas Back-End:
-- [ ]  Criar banco de dados.
-- [ ]  Criar tabela.
-- [ ]  Definir colunas e seus atributos.
-- [ ]  Realizar Conexão da aplicação com o Banco.
+- [X]  Criar banco de dados.
+- [X]  Criar tabela.
+- [X]  Definir colunas e seus atributos.
+- [X]  Realizar Conexão da aplicação com o Banco.
 - [ ]  Definir e estruturar regras da aplicação.

@@ -34,7 +34,31 @@
 }
 
 
+.novos-lancamentos{
+    background: var(---azul);
+}
 
+.secao-novos-lancamentos{
+    background: var(---amarelo);
+    display: flex;
+    flex-direction: column;
+}
+
+.form-lancamentos{
+    display: flex;
+    flex-direction: column;
+}
+
+.lancamentos-caixa{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lancamentos-valor-tipo{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
