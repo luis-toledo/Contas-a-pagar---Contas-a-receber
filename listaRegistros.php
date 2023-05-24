@@ -1,15 +1,24 @@
 <?php include_once("header.php"); ?>
-    <?php include_once("menu.php"); ?>
+    <?php include_once("menu.php"); 
+    $tela = $_GET['tela'];
+    ?>
     <?php include_once("conexao.php"); 
-    $query = $pdo->prepare('select * from financeiro');
+    if ($tela == 'P') {
+        $titulo = 'Contas à Pagar';
+        $query = $pdo->prepare('select * from financeiro where tipo = "P"');
+        $querySoma = $pdo->prepare('select sum(valor) as total from financeiro where tipo = "P"');
+    } else {
+        $titulo = 'Contas à Receber';
+        $query = $pdo->prepare('select * from financeiro where tipo = "R"');
+        $querySoma = $pdo->prepare('select sum(valor) as total from financeiro where tipo = "R"');
+    }
     $executa = $query->execute();
-    $querySoma = $pdo->prepare('select sum(valor) as total from financeiro');
     $executaSoma = $querySoma->execute();
     $soma = $querySoma->fetch(PDO::FETCH_ASSOC);
     ?>
         <article class="lista-de-registros">
             <div class="lista-de-registros-conteudo">
-                <h2 class="titulo-lista">TESTE</h2>
+                <h2 class="titulo-lista"><?php echo $titulo; ?></h2>
                 <div class="secao-tabela">
                     <table class="tabela-lista">
                         <thead class="cabecalho">
@@ -51,9 +60,10 @@
                                     </td>
                                     <td class="coluna-acoes">
                                         <div class="buttons-acoes">
-                                            <a class="acao" href="editar.php?id=<?=$financeiros['id']?>">Editar</a>
-                                            <a class="acao" href="excluir.php?id=<?=$financeiros['id']?>">Excluir</a> 
+                                            <a data-acao="editar" class="acao">Editar</a>
+                                            <a data-acao="excluir" class="acao">Excluir</a> 
                                         </div>
+                                        <script src="./JS/main.js"></script>
                                     </td>
                                 </tr>
                             <?php } ?>
