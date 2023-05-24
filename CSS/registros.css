@@ -95,6 +95,10 @@
     background: var(--hover-acoes);
 }
 
+.linha-registro:hover{
+    background: var(--primaria);
+}
+
 table, th, td{
     border: 1px solid var(--primaria);
     border-collapse: collapse;
