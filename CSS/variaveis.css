@@ -6,6 +6,8 @@
     --secundaria: #000000;
     --terciaria: #282A3A;
     --quartiaria: #C69749;
+    --fundo-tabela: #202020;
+    --hover-acoes: rgba(198,151,73,0.8)
 }
 
 *{

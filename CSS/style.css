@@ -49,6 +49,7 @@ main{
     justify-content: center;
 }
 
+
 .secao-novos-lancamentos{
     background: var(--terciaria);
     width: 100%;
@@ -141,15 +142,6 @@ main{
     padding-bottom: 5px;
 }
 
-.saida-saldo{
-    padding: 8px;
-    background: var(--quartiaria);
-    border: 2px solid var(--primaria);
-    border-radius: 10px;
-    font-family: var(--fonte);
-    font-weight: 400;
-    color: var(--primaria);
-}
 
 .rodape{
     background: var(--terciaria);
