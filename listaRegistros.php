@@ -67,11 +67,15 @@
                                 </tr>
                                 <div id="popup" class="popup">
                                     <div class="popup-content">
-                                        <h2>Atenção</h2>
-                                        <p>excluir</p>
-                                        <div class="acoes-popup">
-                                            <button id="fechar-popup" class="fechar">Fechar</button>
-                                            <button id="confirmar-exclusao" class="excluir">Excluir</button>
+                                        <div class="popup-conteudo">
+                                            <div class="popup-titulo">
+                                                <h2>Atenção</h2>
+                                                <img src="./img/alert.png" alt="icone de alerta">
+                                            </div>
+                                            <div class="acoes-popup">
+                                                <button id="fechar-popup" class="fechar button-popup">Fechar</button>
+                                                <button id="confirmar-exclusao" class="excluir button-popup">Excluir</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

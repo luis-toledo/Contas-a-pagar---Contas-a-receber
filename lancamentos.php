@@ -71,7 +71,6 @@
             $query->bindParam(6, $dataEntrada,    PDO::PARAM_STR);
             $executa = $query->execute();
             
-            print_r($executa);
             if($executa){
                 print "<script>
                             alert('Dados gravados com sucesso!');

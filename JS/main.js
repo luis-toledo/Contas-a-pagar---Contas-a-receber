@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (data.success) {
                     popup.style.display = 'none';
                     alert(data.message);
-                    document.querySelector('[data-id="' + recordId + '"]').parentNode.remove();
                     window.location.reload();
                 } else {
                     alert(data.message);
