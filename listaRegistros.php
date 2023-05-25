@@ -60,15 +60,25 @@
                                     </td>
                                     <td class="coluna-acoes">
                                         <div class="buttons-acoes">
-                                            <a data-acao="editar" class="acao">Editar</a>
-                                            <a data-acao="excluir" class="acao">Excluir</a> 
+                                            <a href="#" data-id="<?php echo $financeiros['id']; ?>" data-acao="editar" class="acao">Editar</a>
+                                            <a href="#" data-id="<?php echo $financeiros['id']; ?>" data-acao="excluir" class="acao">Excluir</a>
                                         </div>
-                                        <script src="./JS/main.js"></script>
                                     </td>
                                 </tr>
-                            <?php } ?>
-                        </tbody>
-                    </table>
+                                <div id="popup" class="popup">
+                                    <div class="popup-content">
+                                        <h2>Atenção</h2>
+                                        <p>excluir</p>
+                                        <div class="acoes-popup">
+                                            <button id="fechar-popup" class="fechar">Fechar</button>
+                                            <button id="confirmar-exclusao" class="excluir">Excluir</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <?php } ?>
+                            </tbody>
+                        </table>
+                        <script src="./JS/main.js"></script>
                 </div>
                 <div class="conteudo-lancamentos-totais">
                     <label class="total-registro" for="">Totais:</label>

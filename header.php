@@ -12,14 +12,4 @@
 </head>
 
 <body>
-    <div id="popup" class="popup">
-        <div class="popup-content">
-            <h2>Pop-up</h2>
-            <p>Conteúdo do pop-up...</p>
-            <div class="acoes-popup">
-                <button class="salvar">Fechar</button>
-                <button class="cancelar">Fechar</button>
-            </div>
-        </div>
-    </div>
     <main>
