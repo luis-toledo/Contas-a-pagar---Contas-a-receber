@@ -3,13 +3,13 @@
 ## Lista de Funcionalidades:
 
 ### Básico.
-- [ ] Criar Registros.
+- [X] Criar Registros.
 - [ ] Editar Registros.
 - [ ] Excluir Registros.
-- [ ] Listar contas à receber.
-- [ ] Listar contas à pagar.
-- [ ] Mostrar o somatório de contas à receber.
-- [ ] Mostrar o somatório de contas à pagar.
+- [X] Listar contas à receber.
+- [X] Listar contas à pagar.
+- [X] Mostrar o somatório de contas à receber.
+- [X] Mostrar o somatório de contas à pagar.
 
 ### Avançado
 - [X] Ter um menu.
@@ -22,7 +22,7 @@
 ## Listas de tarefas
 
 ### Tarefas Font-End:
-- [ ]  Estruturar HTML.
+- [X]  Estruturar HTML.
 - [X]  Definir cores.
 - [ ]  Estilizar com CSS.
 
@@ -31,4 +31,4 @@
 - [X]  Criar tabela.
 - [X]  Definir colunas e seus atributos.
 - [X]  Realizar Conexão da aplicação com o Banco.
-- [ ]  Definir e estruturar regras da aplicação.
+- [X]  Definir e estruturar regras da aplicação.
