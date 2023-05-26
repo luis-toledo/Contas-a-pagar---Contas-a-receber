@@ -60,7 +60,7 @@
                                     </td>
                                     <td class="coluna-acoes">
                                         <div class="buttons-acoes">
-                                            <a href="#" data-id="<?php echo $financeiros['id']; ?>" data-acao="editar" class="acao">Editar</a>
+                                            <a href="./editarRegistros.php?id=<?= $financeiros['id']; ?>" data-acao="editar" class="acao">Editar</a>
                                             <a href="#" data-id="<?php echo $financeiros['id']; ?>" data-acao="excluir" class="acao">Excluir</a>
                                         </div>
                                     </td>
